@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.judul-halaman {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #007bff;
+}
+
+.container {
+  padding: 2rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="file"],
+select {
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+select {
+  padding-right: 30px;
+  background-position: right 10px center;
+  background-size: 20px;
+  width: 100%;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="%23ccc"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>');
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  display: block;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.button-data-siswa,
+.back-home {
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 3px;
+  min-width: 100%;
+  margin: -30px 0 40px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+button.back-home:hover {
+  background-color: #0056b3;
+}
+
+
+@media screen and (max-width: 480px) {
+  .judul-halaman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vw;
+    color: #007bff;
+  }
+  .container {
+    padding: 2rem;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 78vw;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@font-face {
+  font-family: "poppin";
+  src: url(../poppins/Poppins-Regular.otf);
+}

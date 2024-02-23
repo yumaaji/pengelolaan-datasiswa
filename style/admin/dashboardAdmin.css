@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.username-admin {
+  font-size: 25px;
+  color: black;
+}
+
+.foto-admin {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin: 20px 0 30px;
+}
+
+h1 {
+  color: #7354f6;
+  margin-bottom: 1rem;
+  padding-top: 10px;
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+button[type="submit"],
+button {
+  background-color: #7354f6;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem 1rem;
+  margin: 0.5rem auto;
+  border-radius: 5px;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #512da8;
+}
+
+.back-home {
+  text-decoration: none;
+  color: #6f42c1;
+}
+
+.back-home button {
+  background-color: #fff;
+  color: #6f42c1;
+  border: 1px solid #6f42c1;
+}
+
+.back-home button:hover {
+  background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    color: #7354f6;
+    margin-bottom: 1rem;
+    font-size: 7.5vw;
+  }
+  .username-admin {
+    font-size: 6vw;
+  }
+  .container {
+    width: 90vw;
+  }
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(../../poppins/Poppins-Regular.otf);
+}

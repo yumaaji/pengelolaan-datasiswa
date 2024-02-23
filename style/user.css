@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  max-width: 350px;
+  width: 100%;
+  margin: -4rem auto 0;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  margin: 2rem 0 4rem;
+  text-align: center;
+}
+
+.judul-web {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #6f42c1;
+}
+
+nav h1 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+nav p {
+  color: #777;
+}
+
+.move-user {
+  margin: -30px 0 0;
+  color: #777;
+}
+
+form {
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  border-radius: 3px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: #6f42c1;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #512da8;
+}
+
+a {
+  color: #6f42c1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 410px) {
+  /* h1 {
+    font-size: 30px;
+  } */
+  section {
+    max-width: 85vw;
+  }
+}

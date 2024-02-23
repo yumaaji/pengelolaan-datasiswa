@@ -1,0 +1,116 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+  color: #7354f6;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button-update-data,
+.button-hapus-data {
+  padding: 8px 16px;
+  border-radius: 3px;
+  margin: 0 5px 5px 0;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+}
+
+.button-update-data {
+  background-color: #ffc107;
+}
+
+.button-hapus-data {
+  background-color: #dc3545;
+}
+
+.button-update-data:hover {
+  background-color: #e9b61e;
+}
+
+.button-hapus-data:hover {
+  background-color: #b91d2d;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+}
+
+input[type="text"] {
+  width: 175px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+
+th {
+  background-color: #d4d4d4;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+  table {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
