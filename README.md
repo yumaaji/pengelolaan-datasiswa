@@ -3,6 +3,7 @@
 Program ini adalah aplikasi pengelola data siswa yang memungkinkan pengguna untuk mengelola data siswa dengan mudah. Terdapat dua jenis pengguna dalam program ini, yaitu admin dan siswa.
 
 ## Fitur Admin
+- Login akun admin
 - Mengedit profile admin
 - Menganti foto admin
 - Melihat keseluruhan data siswa
@@ -11,6 +12,7 @@ Program ini adalah aplikasi pengelola data siswa yang memungkinkan pengguna untu
 - Mengedit data siswa
 
 ## Fitur Siswa
+- Login akun siswa
 - Melihat detail data profile
 - Mengedit data profile
 - Mengganti foto profile
